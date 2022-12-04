@@ -4,6 +4,13 @@ Research has shown that black patients have an elevated rate of ventilator assoc
 However, we have also discovered from the MIMICIV dataset that black patients are favoured when administrating oral care.
 Therefore, we would like to study the association between ethnicity and frequuency of oral care received. 
 
+# Dataset Generation
+
+1. Request access to MIMICIV dataset from [official physionet website](https://physionet.org/content/mimiciv/2.1/)
+2. Follow SQL build script provided by Physio
+3. Import [master sql script](sql/master.sql) to postgres and execute the script to obtain the master dataset used
+4. Export queried result and export into csv, named 'team11.csv' to be stored in the root
+
 # Methodology
 
 We performed ANOVA test to verify statistical significance between oral care frequency between blacks and the other races.
