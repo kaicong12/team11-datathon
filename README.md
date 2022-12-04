@@ -21,7 +21,7 @@ Some of the confounder variables we have proposed includes:
 - sapsii probability
 
 <div>
-    <img src="/Users/kctey/Desktop/NUS Y4S1/Datathon/image/team11_img.png" alt="regression_result" >
+    <img src="./image/team11_img.png" alt="regression_result" >
 </div>
 
 
